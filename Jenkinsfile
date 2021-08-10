@@ -5,7 +5,7 @@ pipeline {
 		stage("compile") {
 			steps {
 				echo "Compiling"
-				bat """ javac Test.java """
+				//bat """ javac Test.java """
 				}
 			}
 			
